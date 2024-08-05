@@ -210,16 +210,16 @@ extension OpenAI {
 typealias APIPath = String
 extension APIPath {
     
-    static let completions = "/v1/completions"
+    static let completions = "/openai/v1/completions"
     static let embeddings = "/v1/embeddings"
-    static let chats = "/v1/chat/completions"
+    static let chats = "/openai//v1/chat/completions"
     static let edits = "/v1/edits"
-    static let models = "/v1/models"
+    static let models = "/openai//v1/models"
     static let moderations = "/v1/moderations"
     
     static let audioSpeech = "/v1/audio/speech"
-    static let audioTranscriptions = "/v1/audio/transcriptions"
-    static let audioTranslations = "/v1/audio/translations"
+    static let audioTranscriptions = "/openai//v1/audio/transcriptions"
+    static let audioTranslations = "/openai//v1/audio/translations"
     
     static let images = "/v1/images/generations"
     static let imageEdits = "/v1/images/edits"
