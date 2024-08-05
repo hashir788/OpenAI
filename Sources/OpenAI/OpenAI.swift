@@ -212,7 +212,7 @@ extension APIPath {
     
     static let completions = "/openai/v1/completions"
     static let embeddings = "/v1/embeddings"
-    static let chats = "/openai//v1/chat/completions"
+    static let chats = "/openai/v1/chat/completions"
     static let edits = "/v1/edits"
     static let models = "/openai//v1/models"
     static let moderations = "/v1/moderations"
